@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svnroot/synchsignal/!svn/ver/0/
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/synchsignal/!svn/ver/2/main.cpp
+END
+sigmgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/synchsignal/!svn/ver/3/sigmgr.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/synchsignal/!svn/ver/2/makefile
+END
+sigmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/synchsignal/!svn/ver/3/sigmgr.h
+END

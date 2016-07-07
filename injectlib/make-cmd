@@ -1,0 +1,3 @@
+#!/bin/sh
+cc l.c -c -o l.o -fPIC
+ld -shared l.o -soname libinject.so -o libinject.so 

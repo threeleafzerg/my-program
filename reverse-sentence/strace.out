@@ -1,0 +1,1334 @@
+execve("/usr/bin/gdb", ["gdb", "./test"], [/* 70 vars */]) = 0
+brk(0)                                  = 0xa1d000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c02c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/mysql/tls/x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/mysql/tls/x86_64", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/mysql/tls/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/mysql/tls", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/mysql/x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/mysql/x86_64", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/mysql/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/mysql", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("tls/x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libreadline.so.5", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libreadline.so.5", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/tls/x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/pegasus/lib/tls/x86_64", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/tls/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/pegasus/lib/tls", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/x86_64/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/pegasus/lib/x86_64", 0x7fffadb42080) = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libreadline.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/pegasus/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=206461, ...}) = 0
+mmap(NULL, 206461, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f899bff9000
+close(3)                                = 0
+open("/lib64/libreadline.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@^\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=263568, ...}) = 0
+mmap(NULL, 2363784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899bbcd000
+fadvise64(3, 0, 2363784, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899bc06000, 2093056, PROT_NONE) = 0
+mmap(0x7f899be05000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x38000) = 0x7f899be05000
+mmap(0x7f899be0d000, 4488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f899be0d000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libncurses.so.5", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libncurses.so.5", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libncurses.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=293936, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff8000
+mmap(NULL, 2390592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899b985000
+fadvise64(3, 0, 2390592, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899b9c3000, 2097152, PROT_NONE) = 0
+mmap(0x7f899bbc3000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e000) = 0x7f899bbc3000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libz.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libz.so.1", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("x86_64/libz.so.1", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libz.so.1", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libz.so.1", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=88704, ...}) = 0
+mmap(NULL, 2183728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899b76f000
+fadvise64(3, 0, 2183728, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899b784000, 2093056, PROT_NONE) = 0
+mmap(0x7f899b983000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f899b983000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libm.so.6", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libm.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("x86_64/libm.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libm.so.6", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libm.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=388309, ...}) = 0
+mmap(NULL, 2445496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899b519000
+fadvise64(3, 0, 2445496, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899b56e000, 2093056, PROT_NONE) = 0
+mmap(0x7f899b76d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f899b76d000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libpython2.6.so.1.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libpython2.6.so.1.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libpython2.6.so.1.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("x86_64/libpython2.6.so.1.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libpython2.6.so.1.0", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libpython2.6.so.1.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libpython2.6.so.1.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\352\3\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1594904, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff7000
+mmap(NULL, 3748464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899b185000
+fadvise64(3, 0, 3748464, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899b2d0000, 2093056, PROT_NONE) = 0
+mmap(0x7f899b4cf000, 241664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14a000) = 0x7f899b4cf000
+mmap(0x7f899b50a000, 57968, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f899b50a000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libexpat.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libexpat.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libexpat.so.1", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("x86_64/libexpat.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("libexpat.so.1", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libexpat.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libexpat.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=170240, ...}) = 0
+mmap(NULL, 2265264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899af5b000
+fadvise64(3, 0, 2265264, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899af82000, 2097152, PROT_NONE) = 0
+mmap(0x7f899b182000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7f899b182000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libdl.so.2", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("x86_64/libdl.so.2", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("libdl.so.2", O_RDONLY)            = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libdl.so.2", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19149, ...}) = 0
+mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899ad57000
+fadvise64(3, 0, 2109696, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899ad59000, 2097152, PROT_NONE) = 0
+mmap(0x7f899af59000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f899af59000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libc.so.6", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("x86_64/libc.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\354\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1661568, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff6000
+mmap(NULL, 3528808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899a9f9000
+fadvise64(3, 0, 3528808, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899ab4e000, 2093056, PROT_NONE) = 0
+mmap(0x7f899ad4d000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x154000) = 0x7f899ad4d000
+mmap(0x7f899ad52000, 18536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f899ad52000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libpthread.so.0", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libpthread.so.0", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 `\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=142945, ...}) = 0
+mmap(NULL, 2216864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899a7db000
+fadvise64(3, 0, 2216864, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899a7f4000, 2093056, PROT_NONE) = 0
+mmap(0x7f899a9f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f899a9f3000
+mmap(0x7f899a9f5000, 13216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f899a9f5000
+close(3)                                = 0
+open("/c4shares/auto/tools/lib/mysql/libutil.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libutil.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libutil.so.1", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("x86_64/libutil.so.1", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("libutil.so.1", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("/opt/pegasus/lib/libutil.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libutil.so.1", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14360, ...}) = 0
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f899a5d8000
+fadvise64(3, 0, 2105608, POSIX_FADV_WILLNEED) = 0
+mprotect(0x7f899a5da000, 2093056, PROT_NONE) = 0
+mmap(0x7f899a7d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f899a7d9000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff5000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff4000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bff3000
+arch_prctl(ARCH_SET_FS, 0x7f899bff4700) = 0
+mprotect(0x7f899a7d9000, 4096, PROT_READ) = 0
+mprotect(0x7f899a9f3000, 4096, PROT_READ) = 0
+mprotect(0x7f899ad4d000, 16384, PROT_READ) = 0
+mprotect(0x7f899af59000, 4096, PROT_READ) = 0
+mprotect(0x7f899b182000, 8192, PROT_READ) = 0
+mprotect(0x7f899b4cf000, 4096, PROT_READ) = 0
+mprotect(0x7f899b76d000, 4096, PROT_READ) = 0
+mprotect(0x7f899b983000, 4096, PROT_READ) = 0
+mprotect(0x7f899bbc3000, 16384, PROT_READ) = 0
+mprotect(0x7f899be05000, 8192, PROT_READ) = 0
+mprotect(0x9f0000, 4096, PROT_READ)     = 0
+mprotect(0x7f899c02d000, 4096, PROT_READ) = 0
+munmap(0x7f899bff9000, 206461)          = 0
+set_tid_address(0x7f899bff49d0)         = 2129
+set_robust_list(0x7f899bff49e0, 0x18)   = 0
+futex(0x7fffadb4294c, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffadb4294c, 0x189 /* FUTEX_??? */, 1, NULL, 7f899bff4700) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f899a7e0e90, [], SA_RESTORER|SA_SIGINFO, 0x7f899a7eb5a0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f899a7e0f20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f899a7eb5a0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0xa1d000
+brk(0xa3e000)                           = 0xa3e000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+getrusage(RUSAGE_SELF, {ru_utime={0, 0}, ru_stime={0, 4000}, ...}) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2512, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c02b000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2512
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f899c02b000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f899c02b000
+close(3)                                = 0
+open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26050, ...}) = 0
+mmap(NULL, 26050, PROT_READ, MAP_SHARED, 3, 0) = 0x7f899c024000
+close(3)                                = 0
+futex(0x7f899ad51f60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f899bfb4000
+close(3)                                = 0
+getcwd("/emc/yec1/program/reverse-sentence", 1024) = 35
+stat("", 0x7fffadb42740)                = -1 ENOENT (No such file or directory)
+access("/c4shares/auto/tools/bin/gdb", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/bin/gdb", X_OK)      = -1 ENOENT (No such file or directory)
+access("/usr/bin/gdb", X_OK)            = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/usr/bin/gdb", {st_mode=S_IFREG|0755, st_size=4190760, ...}) = 0
+stat("/usr/bin/../lib/debug", 0x7fffadb42740) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat("/usr/lib/debug", 0x7fffadb41650) = -1 ENOENT (No such file or directory)
+access("/c4shares/auto/tools/bin/gdb", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/bin/gdb", X_OK)      = -1 ENOENT (No such file or directory)
+access("/usr/bin/gdb", X_OK)            = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/usr/bin/gdb", {st_mode=S_IFREG|0755, st_size=4190760, ...}) = 0
+stat("/usr/bin/../share/gdb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/gdb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en.UTF-8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en.utf8/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en/LC_MESSAGES/gdb.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getuid()                                = 120729
+geteuid()                               = 120729
+getgid()                                = 2765
+getegid()                               = 2765
+getuid()                                = 120729
+geteuid()                               = 120729
+getuid()                                = 120729
+geteuid()                               = 120729
+getgid()                                = 2765
+getegid()                               = 2765
+getuid()                                = 120729
+geteuid()                               = 120729
+getuid()                                = 120729
+geteuid()                               = 120729
+getgid()                                = 2765
+getegid()                               = 2765
+getuid()                                = 120729
+geteuid()                               = 120729
+stat("/emc/yec1/.terminfo", 0x7fffadb41540) = -1 ENOENT (No such file or directory)
+getuid()                                = 120729
+geteuid()                               = 120729
+getgid()                                = 2765
+getegid()                               = 2765
+getuid()                                = 120729
+geteuid()                               = 120729
+stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getuid()                                = 120729
+setfsuid(120729)                        = 120729
+getgid()                                = 2765
+setfsgid(2765)                          = 2765
+access("/usr/share/terminfo/x/xterm", R_OK) = 0
+open("/usr/share/terminfo/x/xterm", O_RDONLY) = 3
+read(3, "\32\0010\0&\0\17\0\235\1v\5xterm|xterm terminal"..., 4097) = 3320
+close(3)                                = 0
+geteuid()                               = 120729
+setfsuid(120729)                        = 120729
+getegid()                               = 2765
+setfsgid(2765)                          = 2765
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+rt_sigaction(SIGCHLD, {0x47e5e0, [], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+brk(0xa5f000)                           = 0xa5f000
+access("/tmp", R_OK|W_OK|X_OK)          = 0
+open("/tmp/ccp8zhYm", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+close(3)                                = 0
+open("/tmp/ccp8zhYm", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+vfork()                                 = 2130
+close(3)                                = 0
+wait4(2130, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2130
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0x11)                      = 2130
+open("/tmp/ccp8zhYm", O_RDONLY)         = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=13474, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c023000
+read(3, "437//\n500//\n500V1//\n850//\n851//\n"..., 4096) = 4096
+read(3, "\nCSISO2033//\nCSISO5427CYRILLIC//"..., 4096) = 4096
+read(3, "2//\nISO-8859-3//\nISO-8859-4//\nIS"..., 4096) = 4096
+read(3, "OSF10020118//\nOSF10020122//\nOSF1"..., 4096) = 1186
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f899c023000, 4096)            = 0
+unlink("/tmp/ccp8zhYm")                 = 0
+brk(0xa80000)                           = 0xa80000
+brk(0xaa1000)                           = 0xaa1000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf73000
+open("/proc/meminfo", O_RDONLY)         = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(3, "MemTotal:        8064424 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+stat("/c4shares/auto/tools/bin/python", 0x7fffadb3f520) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/python", 0x7fffadb3f520) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/python", {st_mode=S_IFREG|0755, st_size=6416, ...}) = 0
+readlink("/usr/bin/python", "python2.6"..., 4096) = 9
+readlink("/usr/bin/python2.6", 0x7fffadb3f5b0, 4096) = -1 EINVAL (Invalid argument)
+stat("/usr/bin/Modules/Setup", 0x7fffadb3f520) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib64/python2.6/os.py", 0x7fffadb3f450) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib64/python2.6/os.pyc", 0x7fffadb3f450) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/os.py", {st_mode=S_IFREG|0644, st_size=26235, ...}) = 0
+stat("/usr/bin/Modules/Setup", 0x7fffadb3f520) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib64/python2.6/lib-dynload", 0x7fffadb3f520) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0xac2000)                           = 0xac2000
+rt_sigaction(SIGPIPE, {0x1, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {0x1, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {0x1, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {0x47e5e0, [], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {0x1, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f899b2178f8, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+stat("/c4shares/auto/tools/lib/python", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/c4shares/auto/tools/lib/python", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/c4shares/auto/tools/lib/python/site", 0x7fffadb3e240) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/site.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/site.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("site", 0x7fffadb3e240)            = -1 ENOENT (No such file or directory)
+open("site.so", O_RDONLY)               = -1 ENOENT (No such file or directory)
+open("sitemodule.so", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("site.py", O_RDONLY)               = -1 ENOENT (No such file or directory)
+open("site.pyc", O_RDONLY)              = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python26.zip", 0x7fffadb3ae20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+stat("/usr/lib/python26.zip", 0x7fffadb3dea0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib64/python2.6/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib64/python2.6/site", 0x7fffadb3e240) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=18506, ...}) = 0
+open("/usr/lib64/python2.6/site.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=18364, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(4, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0sT\1\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=18364, ...}) = 0
+read(4, ".3st\20\0\0\0gettotalrefcounts\10\0\0\0-py"..., 12288) = 12288
+read(4, "\5\0\0\0posixi\377\377\377\377t\7\0\0\0ModulesRZ\0\0\0R"..., 4096) = 1980
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+stat("/c4shares/auto/tools/lib/python/os", 0x7fffadb3aa80) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/os.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/os.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("os", 0x7fffadb3aa80)              = -1 ENOENT (No such file or directory)
+open("os.so", O_RDONLY)                 = -1 ENOENT (No such file or directory)
+open("osmodule.so", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("os.py", O_RDONLY)                 = -1 ENOENT (No such file or directory)
+open("os.pyc", O_RDONLY)                = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/os", 0x7fffadb3aa80) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/os.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=26235, ...}) = 0
+open("/usr/lib64/python2.6/os.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26331, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(5, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\36\0\0\0@\0\0\0sH\7\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=26331, ...}) = 0
+read(5, "y intermediate path segment (not"..., 20480) = 20480
+read(5, "\0\0\203\0\0\\\2\0}\1\0}\2\0t\1\0|\2\0f\2\0S(\1\0\0\0N(\2"..., 4096) = 1755
+read(5, "", 4096)                       = 0
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf31000
+close(5)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+brk(0xae3000)                           = 0xae3000
+stat("/c4shares/auto/tools/lib/python/posixpath", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/posixpath.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/posixpath.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("posixpath", 0x7fffadb372c0)       = -1 ENOENT (No such file or directory)
+open("posixpath.so", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("posixpathmodule.so", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("posixpath.py", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("posixpath.pyc", O_RDONLY)         = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/posixpath", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/posixpath.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=12754, ...}) = 0
+open("/usr/lib64/python2.6/posixpath.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=10926, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(6, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0+\0\0\0@\0\0\0s\320\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=10926, ...}) = 0
+read(6, "\0\0True(\2\0\0\0R0\0\0\0RB\0\0\0(\0\0\0\0(\0\0\0\0s"..., 4096) = 4096
+read(6, "|\4\0d\t\0j\6\0o\7\0\1qo\0n\1\0\1|\4\0d\7\0j\3\0p(\0"..., 4096) = 2734
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+stat("/c4shares/auto/tools/lib/python/stat", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/stat.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/stat.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("stat", 0x7fffadb33b00)            = -1 ENOENT (No such file or directory)
+open("stat.so", O_RDONLY)               = -1 ENOENT (No such file or directory)
+open("statmodule.so", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("stat.py", O_RDONLY)               = -1 ENOENT (No such file or directory)
+open("stat.pyc", O_RDONLY)              = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/stat", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/stat.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1718, ...}) = 0
+open("/usr/lib64/python2.6/stat.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2703, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(7, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\1\0\0\0@\0\0\0so\1\0\0d\0"..., 4096) = 2703
+fstat(7, {st_mode=S_IFREG|0644, st_size=2703, ...}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+close(6)                                = 0
+stat("/c4shares/auto/tools/lib/python/genericpath", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/genericpath.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/genericpath.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("genericpath", 0x7fffadb33b00)     = -1 ENOENT (No such file or directory)
+open("genericpath.so", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("genericpathmodule.so", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("genericpath.py", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("genericpath.pyc", O_RDONLY)       = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/genericpath", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/genericpath.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3020, ...}) = 0
+open("/usr/lib64/python2.6/genericpath.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=3292, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(7, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\n\0\0\0@\0\0\0s\221\0\0\0d\0"..., 4096) = 3292
+fstat(7, {st_mode=S_IFREG|0644, st_size=3292, ...}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+close(6)                                = 0
+stat("/c4shares/auto/tools/lib/python/warnings", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/warnings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/warnings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("warnings", 0x7fffadb33b00)        = -1 ENOENT (No such file or directory)
+open("warnings.so", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("warningsmodule.so", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("warnings.py", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("warnings.pyc", O_RDONLY)          = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/warnings", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/warnings.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=14173, ...}) = 0
+open("/usr/lib64/python2.6/warnings.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=13042, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(7, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\r\0\0\0@\0\0\0s3\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=13042, ...}) = 0
+read(7, "\0\1Wq\7\0\4t\1\0j\n\0o\34\0\1\1}\2\0\1t\2\0i\3\0\4d\1\0"..., 8192) = 8192
+read(7, "\0\0\0__exit__i\1\0\0s\10\0\0\0\0\1\n\1\24\1\17\1N(\t\0"..., 4096) = 754
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+stat("/c4shares/auto/tools/lib/python/linecache", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/linecache.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/linecache.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("linecache", 0x7fffadb30340)       = -1 ENOENT (No such file or directory)
+open("linecache.so", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("linecachemodule.so", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("linecache.py", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("linecache.pyc", O_RDONLY)         = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/linecache", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/linecache.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4070, ...}) = 0
+open("/usr/lib64/python2.6/linecache.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=3256, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(8, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0sp\0\0\0d\0"..., 4096) = 3256
+fstat(8, {st_mode=S_IFREG|0644, st_size=3256, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+close(7)                                = 0
+stat("/c4shares/auto/tools/lib/python/types", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/types.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/types.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("types", 0x7fffadb30340)           = -1 ENOENT (No such file or directory)
+open("types.so", O_RDONLY)              = -1 ENOENT (No such file or directory)
+open("typesmodule.so", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("types.py", O_RDONLY)              = -1 ENOENT (No such file or directory)
+open("types.pyc", O_RDONLY)             = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/types", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/types.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2323, ...}) = 0
+open("/usr/lib64/python2.6/types.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=2620, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf72000
+read(8, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\17\0\0\0@\0\0\0so\2\0\0d\0"..., 4096) = 2620
+fstat(8, {st_mode=S_IFREG|0644, st_size=2620, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7f899bf72000, 4096)            = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bf00000
+stat("/c4shares/auto/tools/lib/python/UserDict", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/UserDict.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/UserDict.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("UserDict", 0x7fffadb372c0)        = -1 ENOENT (No such file or directory)
+open("UserDict.so", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("UserDictmodule.so", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("UserDict.py", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("UserDict.pyc", O_RDONLY)          = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/UserDict", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/UserDict.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=5778, ...}) = 0
+open("/usr/lib64/python2.6/UserDict.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=8892, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c023000
+read(6, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0sb\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=8892, ...}) = 0
+read(6, "\0\0(\0\0\0\0(\0\0\0\0s \0\0\0/usr/lib64/pyth"..., 4096) = 4096
+read(6, "|\1\0t\2\0\203\2\0o\26\0\1t\3\0|\1\0i\4\0\203\0\0\203\1\0}\1\0n"..., 4096) = 700
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f899c023000, 4096)            = 0
+stat("/c4shares/auto/tools/lib/python/_abcoll", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/_abcoll.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/_abcoll.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("_abcoll", 0x7fffadb33b00)         = -1 ENOENT (No such file or directory)
+open("_abcoll.so", O_RDONLY)            = -1 ENOENT (No such file or directory)
+open("_abcollmodule.so", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("_abcoll.py", O_RDONLY)            = -1 ENOENT (No such file or directory)
+open("_abcoll.pyc", O_RDONLY)           = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/_abcoll", 0x7fffadb33b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/_abcoll.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=13666, ...}) = 0
+open("/usr/lib64/python2.6/_abcoll.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=21685, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c023000
+read(7, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\22\0\0\0@\0\0\0s3\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=21685, ...}) = 0
+read(7, "b64/python2.6/_abcoll.pyt\f\0\0\0__c"..., 16384) = 16384
+read(7, "\0\0(\3\0\0\0R\22\0\0\0RH\0\0\0Rv\0\0\0(\0\0\0\0(\0\0\0\0"..., 4096) = 1205
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f899c023000, 4096)            = 0
+stat("/c4shares/auto/tools/lib/python/abc", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/abc.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/abc.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("abc", 0x7fffadb30340)             = -1 ENOENT (No such file or directory)
+open("abc.so", O_RDONLY)                = -1 ENOENT (No such file or directory)
+open("abcmodule.so", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("abc.py", O_RDONLY)                = -1 ENOENT (No such file or directory)
+open("abc.pyc", O_RDONLY)               = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/abc", 0x7fffadb30340) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/abc.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6819, ...}) = 0
+open("/usr/lib64/python2.6/abc.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=5810, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899c023000
+read(8, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s?\0\0\0d\0"..., 4096) = 4096
+fstat(8, {st_mode=S_IFREG|0644, st_size=5810, ...}) = 0
+read(8, "ss\17\0\0\0Inv.counter: %st\5\0\0\0_abc_s"..., 4096) = 1714
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7f899c023000, 4096)            = 0
+close(7)                                = 0
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebf000
+close(6)                                = 0
+close(5)                                = 0
+brk(0xb04000)                           = 0xb04000
+stat("/c4shares/auto/tools/lib/python/copy_reg", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/copy_reg.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/copy_reg.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("copy_reg", 0x7fffadb372c0)        = -1 ENOENT (No such file or directory)
+open("copy_reg.so", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("copy_regmodule.so", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("copy_reg.py", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("copy_reg.pyc", O_RDONLY)          = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/copy_reg", 0x7fffadb372c0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/copy_reg.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6800, ...}) = 0
+open("/usr/lib64/python2.6/copy_reg.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=5178, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(6, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0s\330\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=5178, ...}) = 0
+read(6, "already registered with code %ss"..., 4096) = 1082
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+close(5)                                = 0
+close(4)                                = 0
+getcwd("/emc/yec1/program/reverse-sentence", 1024) = 35
+geteuid()                               = 120729
+getuid()                                = 120729
+getegid()                               = 2765
+getgid()                                = 2765
+stat("/emc/yec1/.local/lib/python2.6/site-packages", 0x7fffadb3e370) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-bundle/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib64/python2.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents64(4, /* 81 entries */, 32768)  = 2888
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+open("/usr/lib64/python2.6/site-packages/Numeric.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(4, "Numeric\n", 8192)              = 8
+read(4, "", 4096)                       = 0
+stat("/usr/lib64/python2.6/site-packages/Numeric", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+open("/usr/lib64/python2.6/site-packages/_local.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(4, "import site; import sys; site.ad"..., 8192) = 121
+read(4, "", 4096)                       = 0
+brk(0xb25000)                           = 0xb25000
+brk(0xb1b000)                           = 0xb1b000
+open("/usr/local/lib64/python2.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+open("/usr/lib64/python2.6/site-packages/pygtk.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(4, "gtk-2.0\n", 8192)              = 8
+read(4, "", 4096)                       = 0
+stat("/usr/lib64/python2.6/site-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+stat("/usr/lib64/site-python", 0x7fffadb3e370) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/python/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/emc/yec1/program/reverse-sentence", {st_mode=S_IFDIR|0755, st_size=1024, ...}) = 0
+stat("/emc/yec1/program/reverse-sentence", {st_mode=S_IFDIR|0755, st_size=1024, ...}) = 0
+stat("/emc/yec1/program/reverse-sentence/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib64/python2.6", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib64/python2.6/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/plat-linux2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/plat-linux2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/plat-linux2/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/lib-tk/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-old", 0x7fffadb36fe0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib64/python2.6/lib-old", 0x7fffadb3a060) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/lib-dynload/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages/Numeric", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages/Numeric", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages/Numeric/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib64/python2.6/site-packages", 0x7fffadb36fe0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib64/python2.6", 0x7fffadb36fe0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib64/python2.6/site-packages", 0x7fffadb3a060) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib64/python2.6/site-packages/gtk-2.0/sitecustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/python/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/emc/yec1/program/reverse-sentence/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/plat-linux2/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/plat-linux2/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-tk/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-tk/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/lib-dynload/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/lib-dynload/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages/Numeric/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/Numeric/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/site-packages/gtk-2.0/usercustomize", 0x7fffadb3a400) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/site-packages/gtk-2.0/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/c4shares/auto/tools/lib/python/encodings", 0x7fffadb3e390) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/emc/yec1/program/reverse-sentence/encodings", 0x7fffadb3e390) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib64/python2.6/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5638, ...}) = 0
+stat("/usr/lib64/python2.6/encodings/__init__", 0x7fffadb3d330) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__init__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__init__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__init__.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5638, ...}) = 0
+open("/usr/lib64/python2.6/encodings/__init__.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=4416, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(4, "\321\362\r\n\267z\341Kc\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0s\216\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=4416, ...}) = 0
+read(4, "\3\23\1\r\1\16\1\5\2\5\2\6\2\3\1\r\1\16\2\v\2\r\2\n\1\5\3\t\1\23\1$"..., 4096) = 320
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+stat("/usr/lib64/python2.6/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib64/python2.6/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib64/python2.6/encodings/codecs", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/c4shares/auto/tools/lib/python/codecs", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/c4shares/auto/tools/lib/python/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/emc/yec1/program/reverse-sentence/codecs", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/emc/yec1/program/reverse-sentence/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/codecs", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/codecs.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=34707, ...}) = 0
+open("/usr/lib64/python2.6/codecs.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=36100, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(5, "\321\362\r\n\266z\341Kc\0\0\0\0\0\0\0\0\36\0\0\0@\0\0\0sA\3\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=36100, ...}) = 0
+read(5, "\0\0\0C\0\0\0s\n\0\0\0t\0\0\202\1\0d\1\0S(\2\0\0\0s\372\2\0\0"..., 28672) = 28672
+read(5, "\0\0\t\17\1\r\1\20\1c\1\0\0\0\1\0\0\0\2\0\0\0C\0\0\0s\r\0\0\0t"..., 4096) = 3332
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+close(4)                                = 0
+stat("/usr/lib64/python2.6/encodings/encodings", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.6/encodings/aliases", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/aliases.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/aliasesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/aliases.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=14721, ...}) = 0
+open("/usr/lib64/python2.6/encodings/aliases.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8701, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(5, "\321\362\r\n\267z\341Kc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s`\10\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=8701, ...}) = 0
+read(5, "ibm861t\5\0\0\0cp862t\3\0\0\000862t\22\0\0\0csp"..., 4096) = 4096
+read(5, "\1\7\3\7\1\7\1\7\1\7\3\7\1\7\1\7\3\7\1\7\1\7\1\7\1\7\3\7\1\7\1\7"..., 4096) = 509
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+close(4)                                = 0
+stat("/usr/lib64/python2.6/encodings/__builtin__", 0x7fffadb39b70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__builtin__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__builtin__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__builtin__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/__builtin__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/usr/lib64/python2.6/encodings/utf_8", 0x7fffadb3de70) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/utf_8.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/utf_8module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.6/encodings/utf_8.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+open("/usr/lib64/python2.6/encodings/utf_8.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1966, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(4, "\321\362\r\n\267z\341Kc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\230\0\0\0d\0"..., 4096) = 1966
+fstat(4, {st_mode=S_IFREG|0644, st_size=1966, ...}) = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+close(3)                                = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+pipe([3, 4])                            = 0
+poll([{fd=3, events=POLLIN}], 1, 0)     = 0 (Timeout)
+brk(0xb3f000)                           = 0xb3f000
+brk(0xb36000)                           = 0xb36000
+stat("/usr/share/gdb/python/gdb/__init__.py", {st_mode=S_IFREG|0644, st_size=771, ...}) = 0
+stat("/usr/share/gdb/python/gdb/__init__.py", {st_mode=S_IFREG|0644, st_size=771, ...}) = 0
+open("/usr/share/gdb/python/gdb/__init__.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=771, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(5, "# Startup code.\n\n# Copyright (C)"..., 4096) = 771
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+stat("/usr/share/gdb/python/gdb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gdb/python/gdb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gdb/python/gdb/command", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gdb/python/gdb/command/__init__.py", {st_mode=S_IFREG|0644, st_size=1, ...}) = 0
+stat("/usr/share/gdb/python/gdb/command/__init__", 0x7fffadb3c940) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/__init__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/__init__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/__init__.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1, ...}) = 0
+open("/usr/share/gdb/python/gdb/command/__init__.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=132, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(6, "\321\362\r\n\370\206\341Kc\0\0\0\0\0\0\0\0\1\0\0\0@\0\0\0s\4\0\0\0d\0"..., 4096) = 132
+fstat(6, {st_mode=S_IFREG|0644, st_size=132, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+close(5)                                = 0
+stat("/usr/share/gdb/python/gdb/command", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gdb/python/gdb/command", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gdb/python/gdb/command/require", 0x7fffadb3d9a0) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/require.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/requiremodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/require.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=2075, ...}) = 0
+open("/usr/share/gdb/python/gdb/command/require.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=2076, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+read(6, "\321\362\r\n\370\206\341Kc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0si\0\0\0d\0"..., 4096) = 2076
+fstat(6, {st_mode=S_IFREG|0644, st_size=2076, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f899bebe000, 4096)            = 0
+stat("/usr/share/gdb/python/gdb/command/gdb", 0x7fffadb3a1e0) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/gdb.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/gdbmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/gdb.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/gdb.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gdb/python/gdb/command/os", 0x7fffadb3a1e0) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/os.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/python/gdb/command/os.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+close(5)                                = 0
+rt_sigaction(SIGINT, {0x533a60, [INT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x7f899b2178f8, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTERM, {0x533a30, [TERM], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, {SIG_DFL, [TRAP], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x533b00, [QUIT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x533ae0, [HUP], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, {0x533ac0, [FPE], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+stat("/emc/yec1/.gdbinit", 0x7fffadb42730) = -1 ENOENT (No such file or directory)
+stat(".gdbinit", 0x7fffadb426a0)        = -1 ENOENT (No such file or directory)
+rt_sigaction(SIGCONT, {0x4b8ce0, [CONT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+pipe([5, 6])                            = 0
+fcntl(6, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fstat(6, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebe000
+lseek(6, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+poll([{fd=5, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGWINCH, {0x4bd0f0, [], SA_RESTORER, 0x7f899aa2b9e0}, NULL, 8) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCSWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/emc/yec1/.inputrc", 0x7fffadb42670) = -1 ENOENT (No such file or directory)
+stat("/etc/inputrc", {st_mode=S_IFREG|0644, st_size=13516, ...}) = 0
+open("/etc/inputrc", O_RDONLY)          = 7
+read(7, "################################"..., 13516) = 13516
+close(7)                                = 0
+brk(0xb57000)                           = 0xb57000
+brk(0xb78000)                           = 0xb78000
+brk(0xb99000)                           = 0xb99000
+brk(0xbba000)                           = 0xbba000
+brk(0xbdb000)                           = 0xbdb000
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899bebd000
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "\33[?1034hGNU gdb (GDB) SUSE (7.0-"..., 40) = 40
+write(1, "Copyright (C) 2009 Free Software"..., 50) = 50
+write(1, "License GPLv3+: GNU GPL version "..., 78) = 78
+write(1, "This is free software: you are f"..., 67) = 67
+write(1, "There is NO WARRANTY, to the ext"..., 75) = 75
+write(1, "and \"show warranty\" for details."..., 33) = 33
+write(1, "This GDB was configured as \"x86_"..., 48) = 48
+write(1, "For bug reporting instructions, "..., 44) = 44
+write(1, "<http://www.gnu.org/software/gdb"..., 43) = 43
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+stat("./test", {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+open("./test", O_RDONLY)                = 7
+lstat("/emc", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/emc/yec1", {st_mode=S_IFDIR|0755, st_size=3072, ...}) = 0
+lstat("/emc/yec1/program", {st_mode=S_IFDIR|0755, st_size=2048, ...}) = 0
+lstat("/emc/yec1/program/reverse-sentence", {st_mode=S_IFDIR|0755, st_size=1024, ...}) = 0
+fcntl(7, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(7, {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899beb5000
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\340\5@\0\0\0\0\0"..., 32768) = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+fstat(7, {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+close(7)                                = 0
+munmap(0x7f899beb5000, 32768)           = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+stat("./test", {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+open("./test", O_RDONLY)                = 7
+lstat("/emc", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/emc/yec1", {st_mode=S_IFDIR|0755, st_size=3072, ...}) = 0
+lstat("/emc/yec1/program", {st_mode=S_IFDIR|0755, st_size=2048, ...}) = 0
+lstat("/emc/yec1/program/reverse-sentence", {st_mode=S_IFDIR|0755, st_size=1024, ...}) = 0
+fcntl(7, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(7, {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899beb5000
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\340\5@\0\0\0\0\0"..., 32768) = 14559
+brk(0xbfe000)                           = 0xbfe000
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+fstat(7, {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+write(1, "Reading symbols from /emc/yec1/p"..., 63) = 63
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+write(1, "done.\n", 6)                  = 6
+lstat("/emc", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/emc/yec1", {st_mode=S_IFDIR|0755, st_size=3072, ...}) = 0
+lstat("/emc/yec1/program", {st_mode=S_IFDIR|0755, st_size=2048, ...}) = 0
+lstat("/emc/yec1/program/reverse-sentence", {st_mode=S_IFDIR|0755, st_size=1024, ...}) = 0
+lstat("/emc/yec1/program/reverse-sentence/test", {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+open("/emc/yec1/program/reverse-sentence/test-gdb.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/debug/emc/yec1/program/reverse-sentence/test-gdb.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/gdb/auto-load/emc/yec1/program/reverse-sentence/test-gdb.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(7)                                = 0
+munmap(0x7f899beb5000, 32768)           = 0
+open("/emc/yec1/program/reverse-sentence/test", O_RDONLY) = 7
+fcntl(7, F_GETFD)                       = 0
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+fstat(7, {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f899beb5000
+lseek(7, 0, SEEK_SET)                   = 0
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\340\5@\0\0\0\0\0"..., 4955) = 4955
+read(7, "n\0\0\0\2\0\0\0\0\0\10\1\0\0\0\0\340\5@\0\0\0\0\0\n\6@\0\0\0\0\0"..., 32768) = 9604
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 0, SEEK_SET)                   = 0
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\340\5@\0\0\0\0\0"..., 32768) = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+lseek(7, 14559, SEEK_SET)               = 14559
+open("/emc/yec1/program/reverse-sentence/.gdb_history", O_RDONLY) = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCSWINSZ, {ws_row=47, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT QUIT ALRM TSTP TTIN TTOU], [], 8) = 0
+rt_sigaction(SIGINT, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x533a60, [INT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x533a30, [TERM], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x533b00, [QUIT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGALRM, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f899bbf4790, [], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x4bd0f0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+write(1, "(gdb) ", 6)                   = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+poll([{fd=3, events=POLLIN}, {fd=5, events=POLLIN}, {fd=0, events=POLLIN}], 3, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}, {fd=5, events=POLLIN}, {fd=0, events=POLLIN}], 3, -1) = 1 ([{fd=0, revents=POLLIN}])
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+read(0, "r", 1)                         = 1
+write(1, "r", 1)                        = 1
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+poll([{fd=3, events=POLLIN}, {fd=5, events=POLLIN}, {fd=0, events=POLLIN}], 3, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}, {fd=5, events=POLLIN}, {fd=0, events=POLLIN}], 3, -1) = 1 ([{fd=0, revents=POLLIN}])
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+read(0, "\r", 1)                        = 1
+write(1, "\n", 1)                       = 1
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {0x533a60, [INT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTERM, {0x533a30, [TERM], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x533b00, [QUIT], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x7f899bbf47e0, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x4bd0f0, [], SA_RESTORER, 0x7f899aa2b9e0}, {0x7f899bbf4790, [], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x533aa0, [TSTP], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {SIG_DFL, [], SA_RESTORER, 0x7f899aa2b9e0}, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [TSTP], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, {0x533aa0, [TSTP], SA_RESTORER|SA_RESTART, 0x7f899aa2b9e0}, 8) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getrusage(RUSAGE_SELF, {ru_utime={0, 24001}, ru_stime={0, 12000}, ...}) = 0
+stat("/emc/yec1/program/reverse-sentence/test", {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+close(7)                                = 0
+munmap(0x7f899beb5000, 32768)           = 0
+stat("/emc/yec1/program/reverse-sentence/test", {st_mode=S_IFREG|0755, st_size=14559, ...}) = 0
+write(1, "Starting program: /emc/yec1/prog"..., 59) = 59
+personality(0xffffffff /* PER_??? */)   = 0
+personality(0x40000 /* PER_??? */)      = 0
+personality(0xffffffff /* PER_??? */)   = 262144
+vfork()                                 = 2132
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0x11)                      = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+wait4(-1, 0x7fffadb4224c, WNOHANG|__WCLONE, NULL) = -1 ECHILD (No child processes)
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGTRAP}], WNOHANG, NULL) = 2132
+ptrace(PTRACE_GETSIGINFO, 2132, 0, 0xbf8cb0) = 0
+ptrace(PTRACE_PEEKUSER, 2132, offsetof(struct user, u_debugreg) + 48, [0]) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+fcntl(0, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TIOCGPGRP, [2128])             = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fcntl(0, F_SETFL, O_RDONLY)             = 0
+fcntl(0, F_SETFL, O_RDONLY)             = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TIOCSPGRP, [2132])             = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+ptrace(PTRACE_CONT, 2132, 0x1, SIG_0)   = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+wait4(-1, 0x7fffadb4224c, WNOHANG|__WCLONE, NULL) = -1 ECHILD (No child processes)
+wait4(-1, 0x7fffadb4224c, WNOHANG, NULL) = 0
+rt_sigsuspend([])                       = ? ERESTARTNOHAND (To be restarted)
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0x11)                      = -1 EINTR (Interrupted system call)
+wait4(-1, 0x7fffadb4224c, WNOHANG|__WCLONE, NULL) = -1 ECHILD (No child processes)
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGCHLD}], WNOHANG, NULL) = 2132
+ptrace(PTRACE_CONT, 2132, 0x1, SIGCHLD) = 0
+wait4(-1, 0x7fffadb4224c, WNOHANG|__WCLONE, NULL) = -1 ECHILD (No child processes)
+wait4(-1, 0x7fffadb4224c, WNOHANG, NULL) = 0
+rt_sigsuspend([] <unfinished ...>
++++ killed by SIGKILL +++
